@@ -15,7 +15,7 @@ The datasets used in this paper are available at `data` folder.
 The detailed information of each dataset is described in the following table.
 
 | Name | # Nodes | # Edges | Description | Source |
-|------|---------|---------|-------------|--------|
+|------|--------:|--------:|-------------|--------|
 | Wikipedia | 3,023,165 | 102,382,410 | Hyperlink network | [link](https://dumps.wikimedia.org/) |
 | HepPh | 34,546 | 421,534 | Collaboration network | [link](http://konect.uni-koblenz.de/networks/ca-cit-HepPh) |
 | HepTh | 27,770 | 352,768 | Collaboration network | [link](http://konect.uni-koblenz.de/networks/ca-cit-HepTh) |
