@@ -17,9 +17,9 @@ The detailed information of each dataset is described in the following table.
 | Name | # Nodes | # Edges | Description | Source | Location | 
 |------|--------:|--------:|-------------|--------|----------|
 | Wikipedia | 3,023,165 | 102,382,410 | Hyperlink network | [link](https://dumps.wikimedia.org/) | ./data/edit-frwiki.tar.bz2 |
-| HepPh | 34,546 | 421,534 | Collaboration network | [link](http://konect.uni-koblenz.de/networks/ca-cit-HepPh) | cit-HepPh |
-| HepTh | 27,770 | 352,768 | Collaboration network | [link](http://konect.uni-koblenz.de/networks/ca-cit-HepTh) | cit-HepTh |
-| Polblogs | 1,490 | 19,025	| Political network | [link](http://www-personal.umich.edu/~mejn/netdata/) | polblogs |
+| HepPh | 34,546 | 421,534 | Collaboration network | [link](http://konect.uni-koblenz.de/networks/ca-cit-HepPh) | ./data/cit-HepPh |
+| HepTh | 27,770 | 352,768 | Collaboration network | [link](http://konect.uni-koblenz.de/networks/ca-cit-HepTh) | ./data/cit-HepTh |
+| Polblogs | 1,490 | 19,025	| Political network | [link](http://www-personal.umich.edu/~mejn/netdata/) | ./data/polblogs |
 
 
 ## People
