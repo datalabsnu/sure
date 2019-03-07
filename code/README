@@ -1,0 +1,43 @@
+#################################################################################################
+#   Supervised and Extended Restart in Random Walks for Ranking and Link Prediction in Networks
+#   
+#   Authors: Woojeong Jin (woojung211@snu.ac.kr), Seoul National University
+#            Jinhong Jung (jinhongjung@snu.ac.kr), Seoul National University
+#            U Kang (ukang@snu.ac.kr), Seoul National University
+#   
+#   Version : 1.0
+#   Date: 2017-10-14
+#   Main contact: Woojeong Jin
+#
+#   This software is free of charge under research purposes.
+#   For commercial purposes, please contact the author.
+#################################################################################################
+
+
+## Overview
+The package contains the following files:
+- Dataset
+	- hepth.mat : HepTh dataset
+- evaluation : MAP evaluation (codes from Ben Hamner (ben@benhamner.com))
+- RWER
+	- calRWER.m : compute RWER using the iterative method
+	- Normalize.m : normalize an adjacency matrix
+- SuRe 
+	- SuRe.m : learn the restart vector
+	- caldrdc.m : compute dr/dc using the iterative method
+	- calr_tilde.m : calculate r_tilde (sum(M(y,:) - M(x,:)) in the paper) using GMRES
+	- logistic.m : logistic function (loss function)
+	- deriv_logistic.m : derivative of the logistic function
+
+## Usage
+Extract the zip file and move the extracted folder.
+Then, you should add pathes into MATLAB environment. Please type the following command in MATLAB:
+
+	addPath
+
+We also provide a demo file for our method SuRe. Please type the following command to run the demo:
+
+	demo
+
+
+
