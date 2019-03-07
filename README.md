@@ -11,15 +11,18 @@ RWER and SuRe are described in the following paper:
 
 ## Datasets
 
+The datasets used in this paper are available at `data` folder. 
+The detailed information of each dataset is described in the following table.
+
 | Name | # Nodes | # Edges | Description | Source |
 |------|---------|---------|-------------|--------|
-| Wikipedia | 3,023,165 | 102,382,410 | Hyperlink network | link |
-| HepPh | 34,546 | 421,534 | Collaboration network | link |
-| HepTh | 27,770 | 352,768 | Collaboration network | link |
-| Polblogs | 1,490 | 19,025	| Political network | link |
+| Wikipedia | 3,023,165 | 102,382,410 | Hyperlink network | [link](https://datalab.snu.ac.kr/sure/h%C2%8Attps://dumps.wikimedia.org/) |
+| HepPh | 34,546 | 421,534 | Collaboration network | [link](http://konect.uni-koblenz.de/networks/ca-cit-HepPh) |
+| HepTh | 27,770 | 352,768 | Collaboration network | [link](http://konect.uni-koblenz.de/networks/ca-cit-HepTh) |
+| Polblogs | 1,490 | 19,025	| Political network | [link](http://www-personal.umich.edu/~mejn/netdata/) |
 
 
 ## People
-* Woojeong Jin (University of Southern California)
-* Jinhong Jung (Seoul National University)
-* U Kang (Seoul National University)
+* [Woojeong Jin](http://datalab.snu.ac.kr/~woojung) (University of Southern California)
+* [Jinhong Jung](http://datalab.snu.ac.kr/~jinhong) (Seoul National University)
+* [U Kang](http://datalab.snu.ac.kr/~ukang) (Seoul National University)
